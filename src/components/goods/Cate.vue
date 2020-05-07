@@ -246,12 +246,12 @@ export default {
           "categories",
           this.addCateForm
         );
-        if(res.meta.status!==201){
-          return this.$message.error('添加分类失败!')
+        if (res.meta.status !== 201) {
+          return this.$message.error("添加分类失败!");
         }
-        this.$message.success('添加分类成功!')
+        this.$message.success("添加分类成功!");
         this.getCateList();
-        this.addCateDialogVisible = false
+        this.addCateDialogVisible = false;
       });
     },
     // 监听对话框的关闭事件 重置表单数据

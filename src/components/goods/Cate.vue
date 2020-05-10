@@ -44,7 +44,7 @@
           </div>
         </template>
         <!-- 操作 -->
-        <template v-slot:opt="scope">
+        <template v-slot:opt>
           <el-button type="primary" icon="el-icon-edit" size="mini">编辑</el-button>
           <el-button type="warning" icon="el-icon-delete" size="mini">删除</el-button>
         </template>
